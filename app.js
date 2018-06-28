@@ -49,9 +49,7 @@ function onReady() {
 
         //register an event listener
         dlt.addEventListener ('click', function(){
-          console.log(toDo.id);
           toDos = remove(toDo.id);
-          //newLi.parentNode.removeChild(newLi);
           renderTheUI();
         });
       });
